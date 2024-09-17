@@ -1,0 +1,14 @@
+.buttongroup_users_home_class{
+    /*border: black solid 3px;*/
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.buttongroup_users_home_content_class{
+    /*border: black solid 3px;*/
+    display: flex;
+    justify-content: center;
+
+}
