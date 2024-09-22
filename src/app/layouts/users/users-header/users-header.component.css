@@ -1,13 +1,18 @@
 header{
     /*border: red solid 2px;*/
+
 }
 
+.link_logo_class{
+
+}
 
 .logo_class{
     border: skyblue solid 2px;
-    border-radius: 30%;
-    margin: 3px;
-    width: 20%;
+    border-radius: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
 }
 
 .header_content_class{

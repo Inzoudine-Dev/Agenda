@@ -1,0 +1,38 @@
+.form_appointment_content_class{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: black solid 3px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.form_appointment_class{
+    margin: 10px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.link_btn_retour{
+    margin: 10px;
+    text-align: center;
+}
+
+
+input{
+    margin: 10px;
+    text-align: center;
+}
+
+.input_btn_continu_class{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.button_btn_retour{
+    width: 178px;
+    cursor: pointer;
+}
+

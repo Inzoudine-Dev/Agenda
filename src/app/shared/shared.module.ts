@@ -5,6 +5,7 @@ import { ButtonMakeAppointmentComponent } from './button-make-appointment/button
 import { ButtonUpdateAppointmentComponent } from './button-update-appointment/button-update-appointment.component';
 import { ButtonCancelAppointmentComponent } from './button-cancel-appointment/button-cancel-appointment.component';
 import { RouterModule } from '@angular/router';
+import { FormAppointmentComponent } from './form-appointment/form-appointment.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { RouterModule } from '@angular/router';
     ButtonMakeAppointmentComponent,
     ButtonUpdateAppointmentComponent,
     ButtonCancelAppointmentComponent,
+    FormAppointmentComponent,
   ],
   imports: [
     CommonModule,
@@ -24,6 +26,7 @@ import { RouterModule } from '@angular/router';
     ButtonMakeAppointmentComponent,
     ButtonUpdateAppointmentComponent,
     ButtonCancelAppointmentComponent,
+    FormAppointmentComponent,
   ]
 })
 export class SharedModule { }
