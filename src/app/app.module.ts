@@ -4,6 +4,7 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FeaturesModule } from './features/features.module';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { FeaturesModule } from './features/features.module';
     BrowserModule,
     AppRoutingModule,
     FeaturesModule,
+    RouterModule
   ],
   providers: [
     provideClientHydration()

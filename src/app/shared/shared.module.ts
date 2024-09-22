@@ -4,6 +4,7 @@ import { ButtonsgroupUsersHomeComponent } from './users/buttonsgroup-users-home/
 import { ButtonMakeAppointmentComponent } from './button-make-appointment/button-make-appointment.component';
 import { ButtonUpdateAppointmentComponent } from './button-update-appointment/button-update-appointment.component';
 import { ButtonCancelAppointmentComponent } from './button-cancel-appointment/button-cancel-appointment.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -14,8 +15,10 @@ import { ButtonCancelAppointmentComponent } from './button-cancel-appointment/bu
     ButtonCancelAppointmentComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
+
   exports: [
     ButtonsgroupUsersHomeComponent,
     ButtonMakeAppointmentComponent,
